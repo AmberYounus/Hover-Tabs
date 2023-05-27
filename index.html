@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Hover Tabs</h1>
+    <div class="tab">
+      <button class="tablinks" onmouseover="openCity(event,'Html')">
+        HTML
+      </button>
+      <button class="tablinks" onmouseover="openCity(event,'Css')">CSS</button>
+      <button class="tablinks" onmouseover="openCity(event,'JavaScript')">
+        JAVASCRIPT
+      </button>
+    </div>
+    <div id="Html" class="tabContent">
+      <h3>HTML</h3>
+      <p>
+        HTML stands for HyperText Markup Language. It's the way web pages and
+        email templates are coded so that text is formatted and images are
+        added. Plain Text is regular text, with no formatting options such as
+        bold, italics, underlines, or special layout options.
+      </p>
+    </div>
+    <div id="Css" class="tabContent">
+      <h3>CSS</h3>
+      <p>
+        CSS makes the front-end of a website shine and it creates a great user
+        experience. Without CSS, websites would be less pleasing to the eye and
+        likely much harder to navigate. In addition to layout and format, CSS is
+        responsible for font color and more.
+      </p>
+    </div>
+    <div id="JavaScript" class="tabContent">
+      <h3>JAVASCRIPT</h3>
+      <p>
+        JavaScript is a text-based programming language used both on the
+        client-side and server-side that allows you to make web pages
+        interactive. JavaScript gives web pages interactive elements that engage
+        a user.
+      </p>
+    </div>
+    <div class="clearfix"></div>
+  </body>
+  <script src="app.js"></script>
+</html>
 
